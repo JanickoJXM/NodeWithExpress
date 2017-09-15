@@ -1,0 +1,22 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>
+        Hello from handlebars
+        <br>
+        <%=title%> in EJS
+    </h1>
+    <ul>
+        <% for (var i = 0; i<list.length;i++){%>
+            <li>
+                <%=list[i]%>
+            </li>
+            <%}%>
+    </ul>
+</body>
+
+</html>
